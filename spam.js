@@ -21,7 +21,7 @@ const sendSpam = async () => {
             response = await response.json();
             console.log( response );
             console.log( Date.now() );
-            setTimeout(() => sendSpam(), 1_000);
+            setTimeout(() => sendSpam(), 3_000);
             
         }
     } )
